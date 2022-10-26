@@ -1,0 +1,618 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Home-GamersArena</title>
+        <link rel="icon" type="image/x-icon" href="y.png">
+        
+        <script src="https://kit.fontawesome.com/2e53df7743.js" crossorigin="anonymous"></script>
+        
+        <title>
+            Gamers
+        </title>
+
+    <style>
+        #h1
+        {background-color:white;
+            height:20%;
+            text-align:center;
+        }
+
+        #sec_logo
+        {
+            height:100%;
+            width:10%; 
+            float:left;
+            background-color:white;
+        }
+
+        ul 
+        {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           font-family: "Dosis", Sans-serif;
+           font-size: 16px;
+           font-weight: 700;
+           text-transform: uppercase;
+           text-decoration: none;
+           letter-spacing: 1px;
+           padding: 35px 25px 35px 25px;
+           color: #0c0c0c;
+        }
+
+        li 
+        {
+           float: left;
+        }
+
+        li a 
+        {
+         display: block;
+         color: black;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         -webkit-transition-duration: 0.4s; 
+         transition-duration: 0.4s;
+        }
+
+        li a:hover 
+        {
+          color: #ffffff;
+          background-color: red;
+          box-shadow: 0 12px 16px 0 rgb(202, 38, 38),0 17px 50px 0 rgb(202, 43, 43);
+          border-radius: 25px;
+        }
+
+        .hero-image 
+        {
+ 
+         height: 80%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+        
+        }
+          
+        .hero-text 
+        {
+  
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-family: "Dosis", Sans-serif;
+          font-style: italic;
+          font-size: 50px;
+          font-weight: 500;
+          letter-spacing: 3.2px;
+          text-shadow: 0px 0px 15px #000000;
+          -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(250, 250, 250, 0.1)));
+          color: #ffffff;
+       }
+ 
+       #btn
+       {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+     }
+ 
+       #bar
+     {
+       height: 30%;
+       width: 100%;
+       background-color: #000000;
+     }
+ p
+{
+    color:white;
+   
+    
+  
+}
+#we
+{
+    height: 20%;
+	width: 100%;
+	background-color: #000000;   
+
+}
+P
+{
+    float: left;
+	padding: 30px 0px 50px 370px;
+	color: #ffffff;
+    font-size: 27px;
+}
+#btn
+{
+    float: right;
+	font-family: "Dosis", Sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 4.4px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #600300;
+    border-radius: 57px 57px 57px 57px;
+    padding: 20px 30px 20px 28px;
+	margin: 40px 400px 30px 20px;
+}
+#btn:hover
+{
+    transition: all 0.5s;
+    border-style: groove;
+    border-width: 1px 1px 1px 1px;
+	background-color: white;
+	color: red;
+	border-radius: 57px 57px 57px 57px;
+	padding: 20px 28px 20px 28px;
+	border-style: groove;
+    border-width: 5px 10px 0px 10px;
+}
+#logo
+{
+    height: 50%;
+    width: 100%;
+   
+}
+    
+.fa-gamepad
+{
+    float: left;
+    font-size: 150px;
+    padding-top: 50px;
+    padding-left: 250px;
+    color:#800000;
+}
+.fa-gamepad:hover
+{
+    
+    transform: rotate(5deg);
+    transition:  0.3s linear ;
+    
+}
+.fa-calendar
+{
+  font-size: 150px;
+  padding-top: 50px;
+  padding-left: 250px;
+  color:#800000;
+} 
+.fa-calendar:hover
+{
+    transform: rotate(5deg);
+    transition:  0.2s linear ;
+}   
+
+
+.fa-bookmark
+{
+    padding-left: 250px;
+    font-size: 150px;
+    color:#800000;
+    
+}
+.fa-bookmark:hover
+{
+    transform: rotate(5deg);
+    transition:  0.2s  ;
+} 
+.name
+{
+    height: 20%;
+    width: 100%;
+}  
+
+.eve
+{
+   
+    padding-left: 180px;
+    color: #800000;
+    font-size: 30px;
+    font-family: "Dosis", Sans-serif;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    
+
+
+
+
+}
+.mem
+{
+    padding-left: 210px;
+    color: #800000;
+    font-size: 30px;
+    font-family: "Dosis", Sans-serif;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+}
+.gem
+{
+    padding-left: 220px;
+    color: #800000;
+    font-size: 30px;
+    font-family: "Dosis", Sans-serif;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+}
+.fo
+{
+    height: 65%;
+    width: 100%;
+    background-color: #000000;
+}
+.n
+{
+    color: #ffffff;
+    font-family: "Dosis", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+    color:#fefefe;
+    -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgb(0, 0, 0)));
+    color: #ffffff;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(190, 75, 75), 0 0 25px rgb(206, 82, 82), 0 0 5px rgb(220, 46, 46);
+    
+    
+}
+
+
+.sp 
+{
+
+   width: 40%;
+   float: left;
+    color: #ffffff;
+    font-family: "Dosis", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+    text-align: justify;
+}
+.footer
+{
+    height: 70%;
+    width: 100%;
+   background-color: #ffffff;
+
+}
+.f1
+{
+    float: left;
+    padding-top: 50px;
+  
+   
+    font-size: 45px;
+    font-family: "Dosis", Sans-serif;
+    padding-left: 50px;
+    font-weight: 500;
+
+    -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(250, 250, 250, 0.1)));
+    color: #000000;
+   
+}
+.fa-envelope
+{
+    font-size: 70px;
+    padding-top: 50px;
+    padding-left: 250px;
+    color:#fefefe;
+   -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(250, 250, 250, 0.1)));
+    color: #000000;
+   transition: all 2s ease-in-out;
+    
+   
+  }
+  .fa-envelope:hover
+  {
+   transform: rotatex(360deg);
+    
+  }
+  
+    
+
+.fa-instagram
+{
+    font-size: 70px;
+    padding-top: 50px;
+    padding-left: 250px;
+    
+   -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(250, 250, 250, 0.1)));
+    color: #000000;
+    transition: all 2s ease-in-out;
+}
+.fa-instagram:hover
+{
+    transform: rotatey(360deg);
+}
+
+
+
+.fa-phone-volume
+{
+    font-size: 70px;
+    padding-top: 50px;
+    padding-left: 250px;
+    color:#000000;
+    -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(250, 250, 250, 0.1)));
+   
+    transition: all 2s ease-in-out ;
+}
+.fa-phone-volume:hover
+{
+    transform: rotatez(360deg ) ;
+}
+.ft
+{
+    float: left;
+}
+.h
+{
+    padding-left: 30px;
+    color: #000000;
+    opacity: 0.9;
+    
+}
+.j
+{
+ padding-left: 100px;
+ color: #000000;
+
+}
+.k
+{
+padding-left: 140px;
+color: #000000;
+}
+.l
+{
+  padding-left: 150px;
+  color: #000000;
+ 
+}
+.last
+{
+    width: 100%;
+    height: 120%;
+    background-color:#800000;
+    position: relative;
+}
+.last img
+{
+    height:20%; 
+    width:7%;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.p 
+{
+    
+   
+    color: #ffffff;
+    font-family: "Dosis", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+    padding-left: 310px;
+    width: 20%;
+    float: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.span   
+{
+   
+    color: #f9f9f9;
+    font-family: "Dosis", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+   padding-left: 430px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+    
+    .social-feed
+    {
+
+        display: inline-block;
+        position:   relative;
+        padding-left: 11%;
+        padding-top: 2%;
+    }
+    .la
+    {
+        color:red ;
+        font-size:20px; 
+        text-align: center;
+        padding: 0.5em;
+        text-align: center;
+        cursor: pointer;
+       margin:10px;
+        background-color: #ffffff;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+
+    }
+    .la:hover
+    {
+          color: #ffffff;
+          background-color: red;
+          box-shadow: 0 12px 16px 0 rgb(202, 38, 38),0 17px 50px 0 rgb(202, 43, 43);
+          transition: all 0.5s;
+    }
+   .s 
+   {
+    position: absolute;
+    bottom: 0; 
+    margin-left: 59%;
+
+    color: #ffffff;
+    font-family: "Dosis", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+    padding-left: 310px;
+    width: 20%;
+   
+   }
+        
+   
+
+     
+   
+
+    </style>
+    </head>
+
+
+    <body>
+        <body>
+            <header id="h1">
+                
+           <sec id="sec_logo">
+                <img src="y.png" height="80%" width="90%">
+            </sec>
+    
+               
+                    <nav>
+                        <ul>
+                             <li style="padding-left: 700px;"><a href="html.html">Home</a></li>
+                             <li><a href="membership.html">Membership</a></li>
+                            
+                             <li><a href="events.html">Events</a></li>
+                             <li><a href="contact us.html">Contact us</a></li>
+    
+                        </ul>
+                    </nav>
+                
+                    
+    
+            
+            </header>
+            
+            <div class="hero-image">
+                
+                <video  width="1500" height="600" autoplay muted loop  style="background-color: black;">
+                    <source src="v.mp4" type="video/mp4">
+               
+                <video>
+            </div>
+                <div class="hero-text">
+                    <h1>Gamers Arena</h1>
+                    
+                
+              
+                </div>
+            </div>
+            <br>
+
+            <div id="we">
+                <section id="bar">
+                    <center><p>we are organizers of gaming events</p></center>
+                    <input id="btn" type="submit" value="Ask for a quote >>"name="submit">
+                   
+                </section>
+            </div>
+            <br>
+
+            <div id="logo">
+                <div id="first">
+                <i class="fa-solid fa-gamepad"></i>
+                <i class="fa-regular fa-calendar"></i>
+                <i class="fa-regular fa-bookmark"></i>
+                <br><br>
+                <div class-="name">
+                <ul class="ul">
+                    <li class="eve">CHAMPIONSHIP</li>
+                    <li class="mem">Events</li>
+                    <li class="gem">Equipment<br>rental</li>
+                </div>
+              
+            </div>
+                
+
+            <div class="fo">
+                
+                <h1 class="n">#GetInTheArena</h1>
+                <span class="sp">
+                        Gamers Arena was born from the desire to share and spread the passion for video games. 
+                        The goal of our team is to create opportunities for meeting and sporting competition in places where children, 
+                        families and proGamers can have fun thanks to the variety of entertainment offered by electronic games.</span><br>
+            
+                    
+                    <img src="abstract-136.gif" height="120px" width="900px" style="float: right; ">
+                    
+             </div>
+             <footer>
+                <div class="footer">
+                    <h1 class="f1">Contact us</h1>
+                    <i class="fa-solid fa-envelope"></i><i class="fa-brands fa-instagram"></i><i class="fa-solid fa-phone-volume"></i>
+                  
+                    <ul class="ft">
+                        <li class="h">Ask for some information</li>
+                        <li class="j">info@gamersarena.it</li>
+                        <li class="k">gamersarena.asd</li>
+                        <li class="l">+39 393 2471192</li>
+                    </ul>
+                </div>
+             </footer>
+
+             <div class="last">
+                <img src="y.png">
+               <span class="span">
+                Social
+               </span>
+                
+
+             <div>
+                <span class="p">
+                Gamers Areana associazione sportiva dilettantistica<br>
+                Sede legale: Viale Campi Elisi, 22 – 34143 Trieste (TS)<br>
+                Sede operativa: Modena (MO)<br>
+                Cellulare: +39 393 2471192<br>
+                Email: Info@gamersarena.it<br>
+                C.F.: 90143910322<br>
+                P.Iva: 01275990321
+                </span>
+                
+                    <div class="social-feed">
+                    <a href="#" class="la">
+                    <i class="fa fa-twitter"></i></a>
+                    <a href="#" class="la">
+                    <i class="fa fa-facebook"></i></a>
+                    <a href="#" class="la">
+                    <i class="fa-regular fa-envelope-open"></i></a>
+                    </div></div>
+                    <div class="s">
+                        
+                            © 2020 Gamers Arena. All rights reserved.
+                        
+                    </div>
+             </div>
+            </div>
+          </body>  
+         </html>
