@@ -175,18 +175,18 @@ margin-inline-end: 0px;
 }
 .form
 {
-padding: 10px;
+height: 50%;
+width: 100%;
 
 }
 .form-control
 {  
-margin: 5px;
+margin: 0px 5px 5px 0px;
 width: 25%;
 color: #747474;
 padding: 15px 15px 15px 15px;
 font-family: "Roboto", Sans-serif;
 font-weight: 400;
-
 border: 1px solid #55595c;
 border-radius: 5px;
 color: #55595c;
@@ -194,16 +194,13 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
 font-size: 1rem;
 color: #212529;
 line-height: 2;
-
-
-
 }
-
-.pq
+.txt 
 {
-width: 20%;
-text-align: justify;
+    border-radius: 5px;
 }
+
+
 .last
 {
 width: 100%;
@@ -279,6 +276,42 @@ background-color: red;
 box-shadow: 0 12px 16px 0 rgb(202, 38, 38),0 17px 50px 0 rgb(202, 43, 43);
 transition: all 0.5s;
 }
+
+#btn
+{
+   
+    width: 10%;
+    font-family: "Dosis", Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    background-color: #ff213f;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ff213f;
+    border-radius: 10px;
+    font-weight: 400;
+    margin: 0 0 20px 0 ;
+    padding: 0.80rem 1.2rem;
+    border: 0;
+    color: #fff;
+    font-size: .9rem;
+}
+#btn:hover
+{
+    background-color: #ffffff;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ff213f;
+    border-radius: 10px;
+    font-weight: 400;
+    margin: 0 0 20px 0 ;
+    padding: 0.80rem 1.2rem;
+    border: 0;
+    color: rgb(222, 51, 51);
+    font-size: .9rem;
+    box-shadow: 0 12px 16px 0 rgb(202, 38, 38),0 17px 50px 0 rgb(202, 43, 43);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
 #s 
 {
 position: absolute;
