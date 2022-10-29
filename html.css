@@ -1,6 +1,7 @@
 
 #h1
-{background-color:white;
+{
+  background-color:white;
     height:20%;
     text-align:center;
 }
@@ -20,7 +21,7 @@ ul
    padding: 0;
    overflow: hidden;
    font-family: "Dosis", Sans-serif;
-   font-size: 16px;
+   font-size: 1rem;
    font-weight: 700;
    text-transform: uppercase;
    text-decoration: none;
@@ -432,15 +433,13 @@ padding-top: 2%;
 .la
 {
 color:red ;
-font-size:20px; 
-text-align: center;
-padding: 0.5em;
-text-align: center;
+ text-align: center;
+padding: 0.8rem;
 cursor: pointer;
 margin:10px;
 background-color: #ffffff;
--webkit-border-radius: 50%;
-border-radius: 50%;
+border-radius: 1rem;
+
 
 }
 .la:hover
@@ -455,12 +454,11 @@ border-radius: 50%;
 position: absolute;
 bottom: 0; 
 margin-left: 59%;
-
 color: #ffffff;
 font-family: "Dosis", Sans-serif;
 font-size: 15px;
 font-weight: 400;
-line-height: 1.7em;
+line-height: 1.7rem;
 padding-left: 310px;
 width: 20%;
 

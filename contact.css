@@ -212,8 +212,9 @@ position: relative;
 {
 height:20%; 
 width:7%;
-padding-left: 20%;
-padding-top: 5%;
+margin-left: 20%;
+margin-top: 5%;
+
 }
 .p 
 {
@@ -257,16 +258,13 @@ padding-top: 2%;
 }
 .la
 {
-color:red ;
-font-size:20px; 
-text-align: center;
-padding: 0.5em;
-text-align: center;
-cursor: pointer;
-margin:10px;
-background-color: #ffffff;
--webkit-border-radius: 50%;
-border-radius: 50%;
+    color:red ;
+    text-align: center;
+   padding: 0.8rem;
+   cursor: pointer;
+   margin:10px;
+   background-color: #ffffff;
+   border-radius: 1rem;
 
 }
 .la:hover

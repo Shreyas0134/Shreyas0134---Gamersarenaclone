@@ -268,16 +268,13 @@ padding-top: 2%;
 }
 .la
 {
-color:red ;
-font-size:20px; 
-text-align: center;
-padding: 0.5em;
-text-align: center;
-cursor: pointer;
-margin:10px;
-background-color: #ffffff;
--webkit-border-radius: 50%;
-border-radius: 50%;
+    color:red ;
+    text-align: center;
+   padding: 0.8rem;
+   cursor: pointer;
+   margin:10px;
+   background-color: #ffffff;
+   border-radius: 1rem;
 
 }
 .la:hover
