@@ -61,7 +61,7 @@
            <div>
             <textarea rows="10" cols="100" name="comment"  form="usrform" class="txt" placeholder="Your message"></textarea></div></div>
             <div class="btn">
-            <button id="btn">Send</button>
+            <button id="btn" onclick="show()" >Send</button>
             </div>
         </center>
         
@@ -92,7 +92,13 @@
                 <div id="s"> © 
                      <script>document.write(new Date().getFullYear())</script>
                     Gamers Arena. All rights reserved.</div>
-       
+           
+           <script>
+            function show() 
+            {
+              alert("Your message has been sent!");
+            }
+            </script>
 
         
             
