@@ -38,11 +38,12 @@ border-radius: 25px;
 }
 .hero-image
 {
+margin: auto;
 height: 80%;
 width: 100%;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative;
+
 
 }
 .hero-text
