@@ -51,13 +51,13 @@
         <center>
            <div class="form">
                            <div>
-            <input type="text" name="fnm" class="form-control" placeholder="first name*" required>
-            <input type="text" name="fnm" class="form-control" placeholder="Last name*" required>
+            <input type="text" id="name" name="fnm" class="form-control" placeholder="first name*" required>
+            <input type="text" id="lname" name="fnm" class="form-control" placeholder="Last name*" required>
             </div>
             <div>
-             <input type="text" name="fnm" class="form-control" placeholder="Email*" required>
+             <input type="text" id="email" name="fnm" class="form-control" placeholder="Email*" required>
                 
-            <input type="text" name="fnm" class="form-control" placeholder="Website"></div>
+            <input type="text"  name="fnm" class="form-control" placeholder="Website"></div>
            <div>
             <textarea rows="10" cols="100" name="comment"  form="usrform" class="txt" placeholder="Your message"></textarea></div></div>
             <div class="btn">
@@ -96,7 +96,20 @@
            <script>
             function show() 
             {
-              alert("Your message has been sent!");
+                var a,b,c;
+                a=document.getElementById("name");
+                b=document.getElementById("lname");
+                c=document.getElementById("email");
+                 if(a.value=="" || b.value=="" || c.value=="")
+                 {
+                     alert("Please fill all the fields");
+                 }
+                 else
+                 {
+                     alert("Thank you for contacting us");
+                 }
+
+             
             }
             </script>
 
