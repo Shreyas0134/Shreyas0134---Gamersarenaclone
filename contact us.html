@@ -52,13 +52,14 @@
         </h1>
     </div>
     <center>
+        
         <div class="form">
             <div>
-                <input type="text" id="name" name="fnm" class="form-control" placeholder="first name*" required>
-                <input type="text" id="lname" name="fnm" class="form-control" placeholder="Last name*" required>
+                <input type="text" id="name" name="fnm" class="form-control" placeholder="first name*">
+                <input type="text" id="lname" name="fnm" class="form-control" placeholder="Last name*">
             </div>
             <div>
-                <input type="text" id="email" name="fnm" class="form-control" placeholder="Email*" required>
+                <input type="text" id="email" name="fnm" class="form-control" placeholder="Email*">
 
                 <input type="text" name="fnm" class="form-control" placeholder="Website">
             </div>
@@ -69,7 +70,10 @@
         <div class="btn">
             <button id="btn" onclick="show()">Send</button>
         </div>
+        
     </center>
+
+    
 
     <div class="last">
         <img src="y.png">
@@ -104,15 +108,33 @@
         <script>
             function show() {
                 var a, b, c;
-                a = document.getElementById("name");
-                b = document.getElementById("lname");
-                c = document.getElementById("email");
-                if (a.value == "" || b.value == "" || c.value == "") {
+                a = document.getElementById("name").value;
+                b = document.getElementById("lname").value;
+                c = document.getElementById("email").value;
+                if (a == "" || b == "" || c == "") {
                     alert("Please fill all the fields");
+                }
+                
+                if( (!a.match(/^[A-Za-z]+$/)))
+                {
+                    alert("Please enter valid name");
+                }
+                else 
+                if(!b.match(/^[A-Za-z]+$/))
+                {
+                    alert("Please enter valid last name");
+                }
+                else
+                 if(!c.match( /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/))
+                {
+                    alert("Please enter valid email");
                 }
                 else {
                     alert("Thank you for contacting us");
+                    location.reload();  
+                    
                 }
+            
 
 
             }
